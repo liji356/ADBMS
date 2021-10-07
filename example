@@ -1,0 +1,6 @@
+create table student_2(studid number(5) ,sname varchar(10),saddress varchar(20));
+insert into student_2 values(1,'jiji','jijihouse');
+insert into student_2 values(2,'joby','jobynivas'); 
+insert into student_2 values(3,'paru','paruhouse');
+
+select * from student_2;
