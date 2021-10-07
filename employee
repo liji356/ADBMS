@@ -1,0 +1,13 @@
+create table employee_1(ecode number(5),ename varchar(10),departmentNo Number(5),salary number,destination varchar(10),DOJ date);
+insert into employee_1 values(101,'jiji',201,35000,'manager','14-feb-2021');
+insert into employee_1 values(102,'joby',202,25000,' Ass mana','23-feb-2021');
+insert into employee_1 values(103,'rahul',203,20000,'cashier','15-mar-2021');
+insert into employee_1 values(104,'neha',204,15000,'clerk','14-apr-2021');
+select * from employee_1;
+select sum(salary)from employee_1;
+select avg(salary)from employee_1;
+select max(salary)from employee_1;
+select min(salary)from employee_1;
+select count(*)from employee_1;
+select max (salary) from employee_1 group by destination;
+select destination,sum(salary)from employee_1 group by destination;
